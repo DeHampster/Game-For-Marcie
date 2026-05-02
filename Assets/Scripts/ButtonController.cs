@@ -10,6 +10,7 @@ public class ButtonController : MonoBehaviour
     public Sprite pressedImage;
     
     public KeyCode keyToPress;
+    public KeyCode altKeyToPress;
 
 
 
@@ -21,12 +22,12 @@ public class ButtonController : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
-        if (Input.GetKeyDown(keyToPress))
+        if (Input.GetKeyDown(keyToPress) || Input.GetKeyDown(altKeyToPress))
         {
             SR.sprite = pressedImage;
         }
 
-        if (Input.GetKeyUp(keyToPress))
+        if (Input.GetKeyUp(keyToPress) || Input.GetKeyUp(altKeyToPress))
         {
             SR.sprite = defaultImage;
         }
