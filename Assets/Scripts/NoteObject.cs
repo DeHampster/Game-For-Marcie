@@ -7,6 +7,8 @@ public class NoteObject : MonoBehaviour
 
     public bool canBePressed;
 
+    public bool wasPressed = false;
+
     public KeyCode keyToPress;
     public KeyCode altKeyToPress;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,6 +24,11 @@ public class NoteObject : MonoBehaviour
         {
             if (canBePressed)
             {
+                // gameObject.SetActive(false);
+
+                GameManager.instance.NoteHit();
+                wasPressed = true;
+
                 gameObject.SetActive(false);
             }
         }
@@ -40,6 +47,11 @@ public class NoteObject : MonoBehaviour
         if(other.tag == "Activator")
         {
             canBePressed = false;
+
+            if (!wasPressed)
+            {
+                GameManager.instance.NoteMissed();
+            }
         }
         
     }
