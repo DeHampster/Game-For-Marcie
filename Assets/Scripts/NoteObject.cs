@@ -11,6 +11,8 @@ public class NoteObject : MonoBehaviour
 
     public KeyCode keyToPress;
     public KeyCode altKeyToPress;
+
+    public GameObject hitEffect, goodEffect, perfectEffect, missEffect;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,7 +28,23 @@ public class NoteObject : MonoBehaviour
             {
                 // gameObject.SetActive(false);
 
-                GameManager.instance.NoteHit();
+                //GameManager.instance.NoteHit();
+                if(Mathf.Abs(transform.position.y) > 0.25)
+                {
+                    GameManager.instance.NormalHit();
+                    Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
+                    Debug.Log("Hit");
+                } else if(Mathf.Abs(transform.position.y) > 0.05f)
+                {
+                    GameManager.instance.GoodHit();
+                    Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
+                    Debug.Log("Good");
+                } else
+                {
+                    GameManager.instance.PerfectHit();
+                    Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
+                    Debug.Log("Perfect");
+                }
                 wasPressed = true;
 
                 gameObject.SetActive(false);
@@ -51,6 +69,7 @@ public class NoteObject : MonoBehaviour
             if (!wasPressed)
             {
                 GameManager.instance.NoteMissed();
+                Instantiate(missEffect, transform.position, missEffect.transform.rotation);
             }
         }
         

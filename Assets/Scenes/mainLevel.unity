@@ -205,6 +205,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 276
   altKeyToPress: 97
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &42385295
 SpriteRenderer:
   serializedVersion: 2
@@ -533,6 +537,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 275
   altKeyToPress: 100
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &95448624
 SpriteRenderer:
   serializedVersion: 2
@@ -626,6 +634,8 @@ MonoBehaviour:
   theBS: {fileID: 957861635}
   currentScore: 0
   scorePerNote: 100
+  scorePerGoodNote: 125
+  scorePerPerfectNote: 150
   currentMultiplier: 1
   multiplierTracker: 0
   multiplierThresholds: 040000000800000010000000
@@ -1606,6 +1616,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 275
   altKeyToPress: 100
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &702594288
 SpriteRenderer:
   serializedVersion: 2
@@ -2233,6 +2247,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 276
   altKeyToPress: 97
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &986445145
 SpriteRenderer:
   serializedVersion: 2
@@ -2437,6 +2455,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 276
   altKeyToPress: 97
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!1 &1065293710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2545,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 274
   altKeyToPress: 115
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &1065293714
 SpriteRenderer:
   serializedVersion: 2
@@ -2747,6 +2773,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 274
   altKeyToPress: 115
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &1274069806
 SpriteRenderer:
   serializedVersion: 2
@@ -2971,6 +3001,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 273
   altKeyToPress: 119
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &1295455610
 SpriteRenderer:
   serializedVersion: 2
@@ -3195,6 +3229,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 274
   altKeyToPress: 115
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &1460347582
 SpriteRenderer:
   serializedVersion: 2
@@ -3593,6 +3631,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 275
   altKeyToPress: 100
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &1666871907
 SpriteRenderer:
   serializedVersion: 2
@@ -4462,6 +4504,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 276
   altKeyToPress: 97
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &2003798201
 SpriteRenderer:
   serializedVersion: 2
@@ -4824,6 +4870,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 273
   altKeyToPress: 119
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!1 &2090524434
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,6 +5019,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 276
   altKeyToPress: 97
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!1 &2110737925
 GameObject:
   m_ObjectHideFlags: 0
@@ -5055,6 +5109,10 @@ MonoBehaviour:
   wasPressed: 0
   keyToPress: 273
   altKeyToPress: 119
+  hitEffect: {fileID: 7430400121919407207, guid: 588c3b9b3d0fdbc46b53fcf7a63375f7, type: 3}
+  goodEffect: {fileID: 1121886677248480694, guid: b9b27413b75f7154788506f3a631f30c, type: 3}
+  perfectEffect: {fileID: 2107614682331650019, guid: b54a202627b9d7549b0c9eb4d649c5ce, type: 3}
+  missEffect: {fileID: 8999764493544994915, guid: f741bba4fa02e25418e2d4329832dcf4, type: 3}
 --- !u!212 &2110737929
 SpriteRenderer:
   serializedVersion: 2
